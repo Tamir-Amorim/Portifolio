@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+
+    <link id="tema" rel="stylesheet" href="../src/tema1.css">
+    <script src="../src/teste2.js"></script>
+</head>
+<body>
+   
+   
+    <div class="container">
+
+        <header>
+            <div class="lateral">
+                <div class="titulo">
+                    <h2>Tamir Amorim</h2>            
+                </div>
+                <div class="change_theme" onclick="changeTheme()">
+                    <img id="change_theme" src="../src/images/dark_mode_icon.fw.png" >                    
+                </div>
+                
+             
+            </div>          
+
+
+            <nav>
+                <button onclick="showPage('inicio')">Início</button>
+                <button onclick="showPage('sobre')">Sobre</button>
+                <button onclick="showPage('projetos')">Projetos</button>
+                <button onclick="showPage('habilidades')">Habilidades</button>
+                <button onclick="showPage('contato')">Contato</button>
+            </nav>
+        </header>
+
+
+        <div class="imagem-central">
+            <img src="../src/images/portifolio_1.fw.png" width="564" height="846">
+        </div>
+       
+
+        <div class="imagem-central">
+            <a target="_blank" rel="noopener noreferrer"  href="https://www.linkedin.com/in/tamir-amorim/">  <img src="../src/images/icon_linkedin.fw.png" alt="Icone LinkedIn" width="40"></a>  
+            <a target="_blank" rel="noopener noreferrer"  href="https://github.com/Tamir-Amorim" ><img src="../src/images/icon_github.fw.png" alt="Imagem Central" width="40"></a>
+            <a target="_blank" rel="noopener noreferrer" href="mailto:amorimlds@gmail.com" > <img src="../src/images/icon_email.fw.png" alt="Imagem Central" width="40"></a>
+   
+        </div>
+
+        <div class="button2">
+            <button onclick="showPage('contato')">Portifólio</button>
+            <button onclick="showPage('contato')">Contato</button>
+        </div>
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5% 10%;
+    background-color: #FFE4C9;
+}
+
+
+.container {
+    
+    border-style: solid;
+    border-radius: 80px; 
+    text-align: center;
+    background-color: white;
+    border-color: #E78895;
+    
+    
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    color: #fff;
+    padding: 20px;
+}
+
+.lateral{
+    display: flex;
+    width: 30%;
+
+}
+
+.titulo {
+    margin-left: 20px; /* Espaçamento à esquerda para o título */
+    color: black;
+    display: flex;
+}
+
+
+.change_theme{
+    margin-top: 20px;
+    margin-left: 20px;    
+    display: flex;    
+    
+}
+
+header button {
+    margin: 0;
+    border: none;
+    
+}
+
+
+
+#change_theme{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+nav {
+    margin-right: 20px; /* Espaçamento à direita para a navegação */
+}
+
+nav button {
+    background-color: #E78895;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px; /* Espaçamento entre os botões */    
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button2 {
+    padding-bottom: 20px;    
+    padding: 10px 20px;
+    cursor: pointer;
+    
+
+}
+
+.button2 button {
+background-color: #E78895;
+border: none;
+border-radius: 5px;
+color: white;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+.conteudo {
+    padding: 20px;
+    text-align: center;
+    color: #BED1CE;
+}
+
+.imagem-central {
+    margin-top: 30px; /* Espaçamento superior para a imagem */
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titulo, nav {
+        margin: 10px 0; /* Espaçamento vertical para o título e navegação */
+    }
+
+    nav button {
+        margin: 5px 0;
+    }    
+
+}
+
+
+
+.habilidades{
+    position: relative;
+
+}
+
+.habilidades img {
+
+    margin: 0 10px;
+    width: 100px;
+    height: 113px;
+    /* position: absolute; */
+    
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+
+}
+
+
+.habilidades img:hover {
+    
+    width: 80px;
+    height: 90px;
+    margin: 0 50px
+    
+    
+}
+
+
+
+.habilidades2{
+    position: relative;
+
+}
+
+.habilidades2 img {
+
+    margin: 0 10px;
+    width: 100px;
+    height: 113px;
+    /* position: absolute; */
+    
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+
+}
+
+
+.habilidades2 img:hover {
+    aspect-ratio: 1/1.5;
+    width: 500px;
+    height: 750px;
+    margin: 0 50px
+    
+    
+}
